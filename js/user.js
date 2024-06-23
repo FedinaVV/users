@@ -8,7 +8,7 @@ fetch('https://jsonplaceholder.typicode.com/users/' + idFromUrl)
         const li = document.createElement('li');
         li.innerHTML = `
             <div class="user__name">${user.name}</div>
-            <div class="user__username">${user.username}</div>
+            <div class="user__username">Логин: <span>${user.username}</span></div>
             <div class="user__email">Электронная почта: <span>${user.email}</span></div>
             <div class="user__address">Адрес: 
                 <div>${user.address.street}</div>

@@ -6,7 +6,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
 
-    background-image: url('.././img/bg.png');
+    background-image: url('.././img/bg111.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -26,7 +26,7 @@ body {
 
 .user__item {
     max-width: 100%;
-    width: 250px;
+    width: 285px;
 }
 
 
@@ -65,8 +65,8 @@ li {
 .user__company,
 .user__website,
 .user__name,
-.user__username,
-.user__email
+.user__email,
+.user__username
 {
     font-weight: 600;
     margin: 10px 0;
@@ -74,7 +74,8 @@ li {
 
 .user__email span,
 .user__phone span,
-.user__website span
+.user__website span,
+.user__username span
 {
     font-weight: 400;
 }
